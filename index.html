@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">Portfolio</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
+            <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
+            <li class="nav_items"><a href="#skills" class="nav_link active">Skills</a></li>
+            <li class="nav_items"><a href="#work" class="nav_link active">Work</a></li>
+            <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">John Prince</span
+            ><br />Frontend Developer
+          </h1>
+          <a href="#contact" class="button"> Contact</a>
+        </div>
+
+        <div class="home_social" >
+          <a href="https://github.com/johnprince21" class="home_social-icon"  data-aos="fade-down"  data-aos-delay="250"><i class='bx bxl-github' ></i></a>
+          <a href="https://www.linkedin.com/in/johnprince21" class="home_social-icon"  data-aos="fade-down"  data-aos-delay="300"><i class='bx bxl-linkedin-square'></i></a>
+          <a href="https://www.instagram.com/john_prince21?igsh=MWwwMXR5Mm11ZThhdA==" class="home_social-icon"  data-aos="fade-down"  data-aos-delay="350"><i class='bx bxl-instagram'></i></a>
+          <a href="https://drive.google.com/file/d/1htcsK4vbxNLDCmgIPnNBOI-iYvz9O_Oh/view?usp=sharing" class="home_social-icon"  data-aos="fade-down"  data-aos-delay="400"><i class='bx bxs-file-doc'></i></a>
+      </div>
+
+
+      <div class="home_img"  data-aos="fade-down"  data-aos-delay="500"> <img src="./assets/img/home-right.svg" alt="FrontendDeveloper"> </div>
+       
+ 
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500"></div>
+      
+        
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+            <img src="./assets/img/undraw_online-test_20lm.svg" alt="about img">
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm John Prince
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              Passionate Front-End Developer with a strong foundation in web technologies and UI principles. B.E. Computer Science graduate, skilled in HTML, CSS, JavaScript, and modern frameworks like React. Completed a Full Stack course at GUVI and a Web Development Bootcamp on Udemy, specializing in front-end development. Experienced in building responsive, interactive, and user-friendly web applications. Adept at translating design mockups into pixel-perfect web pages and optimizing performance for better user experience. Continuously learning and staying updated with the latest web technologies and trends.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!--Skills Section-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title"  data-aos="fade-down"> Skills</h2>
+      <div class="skills_container bd_grid">
+          <div>
+              <h2 class="skills_subtitle"  data-aos="fade-down" data-aos-delay="250"> Professional Skills</h2>
+              <p class="skills_text"  data-aos="fade-down" data-aos-delay="350"> Every expert was once a beginner, Keep learning, keep building, and success will follow.</p>
+
+              <!--Skills HTML-->
+              <div class="skills_data"  data-aos="fade-right" >
+                  <div class="skills_name" >
+                      <i class='bx bxl-html5 skill_icon'></i>
+                      <span class="skill_name">HTML5</span>
+                  </div>
+                  <div><span class="skill_percentage">95%</span></div>
+                  <div class="skill_bar skill_html"></div>
+              </div>
+
+                      <!--Skills CSS3-->
+                      <div class="skills_data"  data-aos="fade-right" data-aos-delay="350">
+                          <div class="skills_name">
+                              <i class='bx bxl-css3 skills_icon' ></i>
+                              <span class="skill_name">CSS3</span>
+                          </div>
+                          <div><span class="skill_percentage">87%</span></div>
+                          <div class="skill_bar skill_css"></div>
+                      </div>
+
+                         <!--Skills BOOTStrap-->
+                         <div class="skills_data"  data-aos="fade-right" data-aos-delay="350">
+                          <div class="skills_name">
+                            <i class='bx bxl-bootstrap skills_iconB'></i>
+                              <span class="skill_name">Bootstrap</span>
+                          </div>
+                          <div><span class="skill_percentage">90%</span></div>
+                          <div class="skill_bar skill_css"></div>
+                      </div>
+
+
+                      
+                      <!--Skills Tailwind CSS-->
+                      <div class="skills_data"  data-aos="fade-right" data-aos-delay="350">
+                        <div class="skills_name">
+                          <i class='bx bxl-tailwind-css  skills_icon'></i>
+                            <span class="skill_name"> Tailwind CSS</span>
+                        </div>
+                        <div><span class="skill_percentage">83%</span></div>
+                        <div class="skill_bar skill_css"></div>
+                    </div>
+
+
+                      
+                      <!--Skills Javascript-->
+                      <div class="skills_data"  data-aos="fade-right" data-aos-delay="350">
+                          <div class="skills_name">
+                              <i class='bx bxl-javascript skill_jsicon' ></i>
+                              <span class="skill_name">Javascript</span>
+                          </div>
+                          <div><span class="skill_percentage">93%</span></div>
+                          <div class="skill_bar skill_javascript"></div>
+                      </div>
+
+                 <!--Skills reactjs-->
+                 <div class="skills_data"  data-aos="fade-right" data-aos-delay="350">
+                  <div class="skills_name">
+                      <i class='bx bxl-react skills_icon' ></i>
+                      <span class="skill_name">ReactJS</span>
+                  </div>
+                  <div><span class="skill_percentage">91%</span></div>
+                  <div class="skill_bar skill_reactjs"></div>
+              </div>
+
+          </div>
+
+          <div class="skill_img" data-aos="fade-left" data-aos-delay="350">
+              <img  src="./assets/img/undraw_firmware_3fxd.svg" alt="skills img">
+          </div>
+      </div>
+  </section>
+
+      <!-- Project SECTION -->
+      <section class="work section" id="work">
+        <h2 class="section-title" data-aos="fade-down">Project</h2>
+
+        <div
+          class="work_container bd_grid"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="work_img"> <a href="https://html-css-react1.netlify.app/">
+            <img class="img_adjust" src="./assets/img/travel-1.jpg" alt="Project Img" />
+          <div class="work_content">
+            <h1>Travel-Landing Page</h1>
+            <p>click to visit</p>
+          </div></a>
+          </div>
+
+          <div class="work_img"><a href="https://card-flip-dom.netlify.app/">
+            <img class="img_adjust" src="./assets/img/memory-game-template-final-1.jpg" alt="Project Img" />
+            <div class="work_content">
+          <h1>Memory Game</h1>
+        <p>Click to visit</p></div></a>
+          </div>
+
+          <div class="work_img"><a href="https://income-expense-tracker-dom.netlify.app/">
+            <img src="./assets/img/expense-tracker.jpg" alt="Project Img" />
+            <div class="work_content">
+              <h1>Expense Tracker</h1>
+            <p>Click to visit</p></div></a>
+          </div>
+
+          <div class="work_img"><a href="https://fakeapi-model.netlify.app/">
+            <img src="./assets/img/2448261.jpg" alt="Project Img" />
+            <div class="work_content">
+              <h1>E-commerce site</h1>
+            <p>Click to visit</p></div></a>
+          </div>
+
+     
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact section" id="contact"></section>
+      <h2 class="section-title"  data-aos="fade-left">Contact</h2>
+      <div class="contact_container bd_grid">
+  
+          <form action="https://formspree.io/f/mvgzjjqb"
+          method="POST">
+  
+              <div class="form-group">
+                  <input type="text" placeholder="Name" class="control_input" data-aos="fade-right" data-aos-delay="250" name="name" required/>
+              </div>
+              <div  class="form-group" >
+                  <input type="email" id="email" name="email" placeholder="Email" class="control_input" data-aos="fade-right" data-aos-delay="300"  required/>
+              </div>
+  
+              <div  class="form-group" >
+                  <textarea name="message" id="message" required cols="0" rows="10" class="control_input" data-aos="fade-right" data-aos-delay="400"></textarea>
+                  <button type="Submit" class="control_button button" data-aos="fade-right" data-aos-delay="450">Send Message</button>
+  
+              </div>
+          </form>
+      </div>
+
+
+      
+    <!--Footer Section-->
+
+    <footer class="footer">
+      <p class="footer_title" data-aos="fade-down">John Prince</p>
+      <div class="footer_socials">
+
+          <a href="https://github.com/johnprince21" class="footer_social-icon" data-aos="fade-down" data-aos-delay="300"><i class='bx bxl-github' ></i></a>
+          <a href="https://www.linkedin.com/in/johnprince21" class="footer_social-icon" data-aos="fade-down" data-aos-delay="350" ><i class='bx bxl-linkedin-square'></i></a>
+          <a href="https://www.instagram.com/john_prince21?igsh=MWwwMXR5Mm11ZThhdA==" class="footer_social-icon" data-aos="fade-down" data-aos-delay="400" ><i class='bx bxl-instagram'></i></a>
+          <a href="https://drive.google.com/file/d/1htcsK4vbxNLDCmgIPnNBOI-iYvz9O_Oh/view?usp=sharing" class="footer_social-icon" data-aos="fade-down" data-aos-delay="450" ><i class='bx bxs-file-doc'></i></a>
+       
+      <div data-aos="fade-down" data-aos-delay="500">   
+<br>
+<br>
+<p>  &#128222; : 8508507447</p>
+        
+          <br>
+          <p> &#128231; : johnprincedevcraft@gmail.com</p>
+          <br>
+         <p>&#169; 2025 copyright all right reserved </p> 
+
+      </div>
+       
+      </div>
+     
+  </footer>
+
+
+
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
